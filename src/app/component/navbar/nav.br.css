@@ -1,0 +1,52 @@
+.nabar{
+   
+    color: white;
+    display:flex ;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+}
+.log{
+font-size: 30px;
+font-weight: bold;
+}
+.lnk{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+/*
+.lin:hover{
+    width: 100px;
+    padding: 10px;
+    border-radius:20px ;
+    background-color: white;
+    color: black;
+    text-align: center;
+    
+}*/
+@media (max-width: 900px ) {
+    .Container{
+width: 800px;
+    }
+}
+@media (max-width: 800px ) {
+    .Container{
+width: 700px;
+    }
+}
+@media (max-width: 700px ) {
+    .Container{
+width: 600px;
+    }
+}
+@media (max-width: 600px ) {
+    .Container{
+width: 500px;
+    }
+}
+@media (max-width: 500px ) {
+    .Container{
+width: 400px;
+    }
+}

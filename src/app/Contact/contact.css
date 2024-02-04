@@ -1,0 +1,54 @@
+.connt{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.immg{
+    flex: 1;
+    position: relative;
+
+}
+.fom{
+flex: 1;
+}
+.fomm{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fomm input,
+.fomm textarea{
+padding: 20px;
+border-radius: 5px;
+border: none;
+outline: none;
+background-color: rgba(0, 0, 0, 0.459);
+color: aliceblue;
+
+
+}
+.btnn{
+    padding: 10px  ;
+    background-color: #6e90f8;
+    color: aliceblue;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+
+}
+@media (max-width:1086px) {
+    .connt{
+        flex-direction: column;
+       
+        text-align: center;
+        margin: 20px ;
+    }
+    .immg{
+      
+        margin-right: 90px;
+    }
+    .fom{
+        width: 100%;
+    }
+}

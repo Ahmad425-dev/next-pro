@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.lo{
+    font-size: 15px;
+    font-weight: bold;
+}

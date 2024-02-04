@@ -1,0 +1,70 @@
+.containerrr{
+
+display: flex;
+gap: 200px;
+position: absolute;
+margin-top: 90px;
+
+
+
+}
+.text-area{
+    
+   
+    display: flex ;
+    flex-direction: column;
+    gap: 25px;
+}
+.text-area h1{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.last{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+.last p{
+padding-left: 10px;
+}
+.immg{
+    padding-top: 50px;
+    padding-right: 100px;
+}
+.pp{
+    font-size: 5px;
+}
+
+
+
+@media (max-width: 1086px) {
+  .containerrr{
+
+flex-direction: column;
+display: block;
+
+    
+  }
+  .text-area{
+    width: 100%;
+  padding-right: 50px;
+  }
+  .text-area h1{
+    font-size: 30px;
+    color: yellow;
+  }
+
+  .last{
+  
+   margin-right: 90px;
+
+  }
+  
+  .immg{
+    width: 30px;
+    height: 30px;
+display: inline;
+}
+
+} 
